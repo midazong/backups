@@ -12,7 +12,6 @@
 #include <error.h>
 using namespace std;
 
-
 #define PORT 2021 //端口号
 void errHandle(char const* msg, int line) //异常处理函数
 {
