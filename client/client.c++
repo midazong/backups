@@ -1595,7 +1595,7 @@ int main(int argc, char* argv[])
 
     while (deleteFlag == 1) //当由于注销而退出，则重启初始界面
         init(argc, argv);
-        
+
 	close(serv_sock);
     return 0;
 }
