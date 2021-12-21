@@ -5,7 +5,7 @@ server:server.o
 #把.c++文件编译成.o文件
 server.o:server.c++
 	g++ -c server.c++ -o server.o 
-	
+
 #清除中间文件
 clean:
 	-rm *.o
